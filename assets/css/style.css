@@ -1,0 +1,155 @@
+* {
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor_principal {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.contactos{
+    flex: 0 0 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: solid 0.5px #BEC1BB;
+}
+
+.contactos_arriba{
+    flex: 0 0 7.5%;
+    background-color:white;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 0.5px #BEC1BB;
+    display: flex;
+}
+
+.contactos_arriba img{
+    width: 40px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 4px;
+    border-color: #828485;
+
+
+}
+
+.contactos_arriba_iconos{
+   font-size: 30px;
+   color: #828485;
+}
+
+.contactos_arriba_statusfoto{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.contactos_arriba_statusfoto p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-bottom: 0;
+}
+
+span{
+    font-size: 10px;
+    padding-top: 2px;
+    color:#828485;
+}
+.contactos_nuevo_chat{
+    flex: 0 0 17.5%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 0.5px #BEC1BB;
+    
+}
+.contactos_nuevo_chat button{
+    width: 250px;
+    height: 65px;
+    background-color: #A491D2;
+
+}
+
+
+
+.contactos_contactos{
+    flex: 1 0 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: solid 0.5px #BEC1BB;
+    
+}
+
+.contactos_contactos_chats{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    border: solid 0.5px #BEC1BB;
+    
+
+}
+.contactos_contactos_chats p{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 1rem;
+ 
+
+}
+
+.contactos_contactos_chats img{
+    width: 60px;
+    border-radius: 60%;
+    margin-right: 4px;
+    margin-left: 4px ;
+    border: double 2px #E8EBE4;
+}
+
+
+.principal{
+    flex: 0 0 80%;
+    background-color: #E8EBE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal_cuerpo {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.principal_texto{
+    
+    text-align: center;
+    margin-top: 1rem;
+}
+.principal_texto h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.principal_texto p{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 1.5rem;
+}
+
+.principal_logo img{
+    width: 350px;
+}
